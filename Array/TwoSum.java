@@ -1,3 +1,5 @@
+//use this if array element is sorted
+
 class TwoSum{
     public static void main(String[] args) {
         int target=10;
