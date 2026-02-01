@@ -4,9 +4,10 @@ class BubbleDes{
     static void bubbleDes(int[] arr){
         int n=arr.length;
         boolean flag=false;
-        for (int i = n-1; i > 0; i--) {
+        for (int i = 0; i < n-1; i++) {
             
-            for (int j = n-1-i; j >= 0; j--) {
+            for (int j = 0; j < n-1-i; j++) {
+
                 if(arr[j] < arr[j+1]){
                     int temp=arr[j+1];
                     arr[j+1]=arr[j];
@@ -30,3 +31,12 @@ class BubbleDes{
         bubbleDes(arr);
     }
 }
+
+
+/*
+Bubble Sort logic never changes
+Only the comparison sign changes
+
+
+
+*/
