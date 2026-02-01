@@ -1,7 +1,7 @@
 class Selection{
     static void selection(int[] arr){
         int n=arr.length;
-        for (int i = 0; i < n-2; i++) {
+        for (int i = 0; i < n-1; i++) {
             int minElement = i;
 
             for (int j = i+1; j < n; j++) {
@@ -11,8 +11,11 @@ class Selection{
             }
 
             int temp=arr[i];
-            arr[i]=minElement;
-            minElement=temp;
+            arr[i]=arr[minElement];
+            arr[minElement]=temp;
+        }
+        for(int num : arr){
+            System.out.println(num);
         }
     }
     public static void main(String[] args) {
