@@ -1,33 +1,82 @@
 # Java-DSA-Journey
-Daily Java and DSA practice from basics
+
+Daily Java and Data Structures & Algorithms practice from basics to advanced.
 
 ## Overview
-This repository documents my learning journey in Java and Data Structures & Algorithms.
-The focus is on building strong fundamentals through regular practice and steady improvement.
 
-It is a learning-focused repository that grows as my understanding grows.
+This repository documents my structured journey of learning **Java** and **Data Structures & Algorithms (DSA)** from scratch.
+
+The goal is to build strong fundamentals, improve logical thinking, and develop problem-solving ability through consistent practice.
+
+This is a learning-focused repository that grows as my understanding deepens.
 
 ## Purpose
-- Learn Java from the basics with clarity
-- Develop logical and problem-solving skills
-- Practice DSA concepts step by step
-- Maintain consistency in learning and coding
-- Prepare for future technical interviews
+
+- Master Java fundamentals  
+- Strengthen problem-solving skills  
+- Practice core DSA topics step by step  
+- Build strong logic and pattern recognition  
+- Prepare for internships and technical interviews  
+- Maintain consistency and discipline  
 
 ## Current Structure
-- **Java-Basics**: Contains basic Java programs and concepts currently being learned and practiced
-- More folders will be added as the learning progresses
 
-## Usage
-- Add code as new concepts are learned
-- Make small, meaningful commits regularly
-- Update the README only when there is a major structural or goal-related change
+### 🔹 Java-Basics
+
+Core Java fundamentals:
+
+- Syntax and variables  
+- Data types  
+- Operators  
+- Control statements  
+- Methods  
+- Basic OOP concepts  
+
+### 🔹 Array
+
+- Basic array operations  
+- Traversal  
+- Searching in arrays  
+- Problem-solving using arrays  
+- Time & space complexity understanding  
+
+### 🔹 String
+
+- String manipulation  
+- Character operations  
+- Pattern-based string problems  
+- Logical problem-solving  
+
+### 🔹 Searching
+
+- Linear Search  
+- Binary Search  
+- Search-based problem patterns  
+- Understanding time complexity (O(n), O(log n))  
+
+### 🔹 Sorting
+
+- Basic sorting techniques  
+- Bubble Sort  
+- Selection Sort  
+- Insertion Sort  
+- Understanding internal working and complexity  
+
+### 🔹 DSA-Recursion
+
+- Recursion fundamentals  
+- Base condition understanding  
+- Recursive problem patterns  
+- Stack behavior and memory flow  
 
 ## Tools & Technologies
-- Java
-- VS Code
-- Git and GitHub
+
+- Java  
+- VS Code  
+- Git  
+- GitHub  
 
 ## Note
+
 This repository is not about rushing or perfection.  
-It is about learning honestly, practicing consistently, and improving one step at a time.
+It is about building strong fundamentals, practicing honestly, and improving one day at a time.
