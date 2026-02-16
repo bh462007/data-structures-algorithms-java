@@ -10,10 +10,12 @@ class AddBinary{
             int sum=carry;
 
             if(i>=0){
-                sum+=s1.charAt(i--) - '0';
+                sum+=s1.charAt(i) - '0';
+                i--;
             }
             if(j>=0){
-                sum+=s2.charAt(j--) - '0';
+                sum+=s2.charAt(j) - '0';
+                j--;
             }
             sb.append(sum % 2);
             carry= sum / 2;
