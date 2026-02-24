@@ -23,6 +23,3 @@ class Permutation{
         permute(ch,0);
     }
 }
-
-
-
