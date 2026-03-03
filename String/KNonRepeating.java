@@ -28,7 +28,6 @@ class KNonRepeating{
     public static void main(String[] args) {
         String s="Bhagyashri";
         int k=3;
-
         char result=kNonRepeating(s,k);
 
         if(result=='\0'){
