@@ -17,6 +17,22 @@ class Anagram{
         String sorted2=new String(arr2);
         
         return sorted1.equals(sorted2);
+
+
+        // int[] count = new int[26];
+        
+        // for (int i = 0; i < s1.length(); i++) {
+        //     count[s1.charAt(i) - 'a']++;
+        //     count[s2.charAt(i) - 'a']--;
+        // }
+        
+        // for (int num : count) {
+        //     if (num != 0) {
+        //         return false;
+        //     }
+        // }
+        
+        // return true;
     }
     public static void main(String[] args) {
         String s1="retro";
