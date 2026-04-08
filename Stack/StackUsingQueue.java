@@ -58,7 +58,7 @@ class StackUsingQueue{
     public int peek(){
         if(start==-1){
             System.out.println("Queue is empty");
-            System.exit(1);
+            return -1;
         }
         return queue[start];
     }
