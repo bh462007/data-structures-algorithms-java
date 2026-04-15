@@ -25,7 +25,6 @@ class DeleteLastNodeDLL {
         return head;
     }
 
-    // helper to print list
     void printList(Node head) {
         Node temp = head;
         while (temp != null) {
@@ -35,7 +34,6 @@ class DeleteLastNodeDLL {
         System.out.println();
     }
 
-    // helper to create sample DLL
     Node createList(int[] arr) {
         if (arr.length == 0) return null;
 

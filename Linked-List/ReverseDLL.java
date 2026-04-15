@@ -31,7 +31,7 @@ class ReverseDLL {
             curr = curr.prev;
         }
 
-        return prevNode; // ✅ new head
+        return prevNode; 
     }
 
     void printList(Node head) {
