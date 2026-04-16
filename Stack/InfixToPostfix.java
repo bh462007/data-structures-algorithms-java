@@ -45,3 +45,20 @@ class InfixToPostfix{
         System.out.println(convert(exp));
     }
 }
+
+/*
+Core Rules (VERY IMPORTANT)
+
+We scan the expression left → right.
+
+1. If operand → directly add to output
+A → output: A
+2. If ( → push to stack
+3. If ) → pop until (
+4. If operator (+ - * / ^):
+Pop from stack while:
+stack not empty
+AND precedence(stack top) ≥ precedence(current)
+Then push current operator
+5. At the end → pop everything from stack
+*/
