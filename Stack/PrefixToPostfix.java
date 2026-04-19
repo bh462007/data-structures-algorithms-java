@@ -30,7 +30,7 @@ class PrefixToPostfix{
 
 
 
-
+/*
 ⚙️ Rules
 1. If operand → push
     A → push "A"
@@ -39,3 +39,4 @@ class PrefixToPostfix{
     Make:
         op1 op2 operator
     Push back
+*/
