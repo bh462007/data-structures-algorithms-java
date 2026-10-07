@@ -1,3 +1,5 @@
+//left-root-right
+
 class TreeNode{
     int data;
     TreeNode left;
